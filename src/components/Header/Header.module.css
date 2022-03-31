@@ -1,0 +1,43 @@
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/public/images/img.jpg");
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.text {
+  width: 45vw;
+  height: 40vh;
+  margin: 12rem 0 0 30rem;
+  background-color:khaki;
+  color: black;
+  padding: 20px;
+}
+
+.text > h1 {
+  font-size: 30px;
+  line-height: 100px;
+  font-style:italic;
+}
+
+.text > p {
+  line-height: 30px;
+  font-style:normal;
+}
+
+.text > button {
+  padding: 10px 40px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.text > button:hover {
+background-color: rgb(245, 109, 132);
+}
